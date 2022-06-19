@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kanit:wght@200&family=Roboto+Mono&display=swap');
+
+.title-container {
+  position: relative;
+  top: 10vh;
+  left: 10vw;
+  height: 40vh;
+  width: 50vw;
+  background: linear-gradient(to bottom right, rgb(78, 120, 205), rgb(73, 60, 150), rgb(168, 255, 19));
+  box-shadow: 4px 7px rgb(194, 194, 194);
+}
+
+.small {
+  background-color: red;
+  margin: 1px;
+  height: 18px;
+  width: 18px;
+}
+
+.title-container > h1 {
+  font-size: 80px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  color: rgb(248, 240, 240);
+}
+
+.title-container > p {
+  font-size: 50px;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  height: 140vh;
+  width: 100vw;
+}
+
+.one-div {
+  background-color: yellow;
+}
+
+#lineDrawing {
+  position: relative;
+  float: right;
+  /* left: 40vw; */
+  top: 30vh;
+  height: 60vh;
+  width: 60vw;
+  background: #050505;
+}
+
+.my-path {
+  fill:none;
+  stroke:#cfc33a;
+  stroke-width:3;
+}
+
+.underline {
+  stroke:rgb(165, 25, 184);
+  stroke-width: 20;
+}
