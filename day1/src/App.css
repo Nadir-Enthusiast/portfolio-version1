@@ -1,0 +1,12 @@
+.container {
+  display: inline-block;
+  position: relative;
+  margin-top: 0;
+  height: 120vh;
+  width: 100vw;
+}
+
+.mainPage {
+  position: relative;
+  top: 80px;
+}
