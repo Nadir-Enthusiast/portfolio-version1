@@ -1,0 +1,29 @@
+.navbar {
+  position: sticky;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+  height: 80px;
+  background: rgb(255, 255, 255);
+}
+
+ul {
+  display: flex;
+  position: relative;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding: 25px 25px;
+} 
+
+a {
+  color: rgb(122, 180, 231);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover {
+  color: rgb(191, 0, 255);
+}
