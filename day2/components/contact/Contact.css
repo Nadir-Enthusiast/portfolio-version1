@@ -1,0 +1,53 @@
+.three-div {
+    background-color: green;
+}
+
+.contact-info-title {
+    position: relative;
+    top: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-info-title > h1 {
+    font-size: 75px;
+}
+
+.contact-info-container {
+    position: relative;
+    top: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-container {
+    margin: 10px 65px;
+    height: fit-content;
+}
+
+.contact-text-info {
+    width: 210px;
+    height: 70px;
+    background-color: #3e3e3e;
+    text-align: center;
+}
+
+.contact-name {
+    font-size: 32px;
+    color: white;
+}
+
+.show-btn {
+    background: transparent;
+    height: 70px;
+    border: none;
+}
+
+.contact-route {
+    background-color: white;
+    height: 100px;
+    width: 210px;
+    display: none;
+    word-wrap: normal;
+}
