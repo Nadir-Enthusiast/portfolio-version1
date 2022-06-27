@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Potta+One&family=Satisfy&display=swap');
+
+.skills-page {
+    background: url("./pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140vh;
+}
+
+.containers-skills {
+    position: relative;
+    top: 80px;
+}
+
+.backend-container {
+    margin-left: 100px;
+    width: 450px;
+    height: 850px;
+    background: white;
+}
+
+.general-info {
+    margin: 0 100px;
+    width: 550px;
+    height: 800px;
+    background-color: transparent;
+}
+
+.frontend-container {
+    position: relative;
+    width: 450px;
+    height: 850px;
+    background: white;
+}
+
+.skill-level-container {
+    height: 140px;
+    background-color: #eeeeee;
+    border-radius: 4rem;
+}
+
+.skill-level-container > p {
+    margin-left: 45px;
+    font-size: 40px;
+    font-family: 'Potta One', cursive;
+}
+
+.title-container-skill {
+    height: 60px;
+    text-align: center;
+}
+
+.title-container-skill > h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Bangers', cursive;
+}
+
+.line-svg {
+    stroke: #333152;
+    stroke-width: 28;
+}
+
+.genInfo-text {
+    margin-top: 350px;
+    text-align: center;
+}
+
+.genInfo-text > h1 {
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.genInfo-text > p {
+    font-size: 35px;
+    font-family: 'Satisfy', cursive;
+}
+
+@media screen and (min-width: 1080px) {
+    .containers-skills {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .skills-page {
+        position: relative;
+        top: -10vh;
+        height: 100vh;
+    }
+
+    .containers-skills {
+        display: inline;
+        position: relative;
+        top: -10vh;
+    }
+
+    .backend-container {
+        transform: scale(0.4);
+        margin-left: 20px;
+        position: relative;
+        float: left;
+        top: 0;
+        right: 25vw;
+        width: 90vw;
+        height: 130vh;
+    }
+
+    .general-info {
+        margin: 0 0 0 10px;
+        position: relative;
+        bottom: 110vh;
+        width: 90vw;
+        height: 30vh;
+    }
+    
+    .frontend-container {
+        top: -130vh;
+        left: 20vw;
+        position: relative;
+        float: right;
+        transform: scale(0.4);
+        margin-left: 20px;
+        width: 90vw;
+        height: 130vh;
+    }
+
+    .genInfo-text {
+        margin-top: 20px;
+    }
+    
+    .genInfo-text > h1 {
+        font-size: 30px;
+    }
+    
+    .genInfo-text > p {
+        font-size: 25px;
+    }
+}
