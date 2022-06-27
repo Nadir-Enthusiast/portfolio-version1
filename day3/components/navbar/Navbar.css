@@ -1,0 +1,84 @@
+.navbar {
+  position: sticky;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+  height: 80px;
+  background: rgb(255, 255, 255);
+}
+
+ul {
+  display: flex;
+  position: relative;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding: 25px 25px;
+} 
+
+a {
+  color: rgb(122, 180, 231);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover {
+  color: rgb(191, 0, 255);
+}
+
+@media screen and (min-width: 1080px) {
+  .first-layer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: left;
+  }
+
+  .second-layer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right;
+  }
+
+  li {
+    padding: 25px 25px;
+  } 
+  
+}
+
+@media screen and (max-width: 767px) {
+
+  .first-layer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .second-layer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  .nav-container {
+    text-align: center;
+    height: 76px;
+  }
+
+  ul {
+    margin: 12px 5px;
+  }
+
+  li {
+    padding: 10px 14px;
+  }
+
+  a {
+    font-size: 19px;
+  }
+}
