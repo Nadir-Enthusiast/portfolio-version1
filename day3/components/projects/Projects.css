@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Stick+No+Bills&family=Yellowtail&display=swap');
+
+.two-div {
+    background: url("./pics/pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.two-div > h1 {
+    font-size: 5vh;
+    color: white;
+    padding-top: 10vh;
+}
+
+.two-div > p {
+    font-size: 3vh;
+    color: white;
+    font-family: StickNoBills;
+}
+
+#e-com {
+    background: url("https://thewebsecret.com/wp-content/uploads/2022/01/e-commerce-blog-post-scaled-1.jpeg");
+    background-size: cover;
+}
+
+#inst {
+    background: url("https://cdn.pixabay.com/photo/2016/09/17/07/03/instagram-1675670__340.png");
+    background-size: cover;
+}
+
+#mesn {
+    background: url("https://ak.picdn.net/shutterstock/videos/1068872675/thumb/1.jpg?ip=x480");
+    background-size: cover;
+}
+
+.projects-about-text {
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+
+.projects-about-text > h1 {
+    font-size: 75px;
+    font-family: 'Diplomata SC', cursive;
+    letter-spacing: 10px;
+}
+
+.project {
+    background-color: white;
+}
+
+.project:hover {
+    transform: scale(1.4);
+    transition-duration: 1.5s;
+}
+
+.project-text {
+    text-align: center;
+}
+
+.project-text > p {
+    font-size: 26px;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Yellowtail', cursive;
+}
+
+@media screen and (min-width: 1080px) {
+    .projects-container {
+        display: flex;
+        width: 100%;
+        margin: 90px 270px 50px 80px;
+    }
+
+    .project {
+        margin: 10px 80px;
+        width: 400px;
+        height: 280px;
+    }
+
+    .project-pic-container {
+        height: 230px;
+    }
+
+    .project-text {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .projects {
+        max-height: 100vh;
+        position: relative;
+        top: -180vh;
+    }
+
+    .project {
+        margin-bottom: 30px;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        margin: 10px 20vw;
+    }
+
+    .project-pic-container {
+        height: 120px;
+    }
+
+    .project-text {
+        height: 16px;
+    }
+
+    .project-text > p {
+        margin-top: 10px;
+    }
+
+    .projects-about-text {
+        top: -10px;
+    }
+
+    .projects-about-text > h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+
+}
