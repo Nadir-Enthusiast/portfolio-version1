@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Josefin+Sans:ital@0;1&display=swap');
+
+.aboutPage {
+    background: url("./assets/pic1.png");
+    background-size: cover;
+    background-repeat: no-repeat;    
+    height: 160vh;
+}
+
+.about-title {
+    font-family: 'Fascinate', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(247, 0, 255);
+}
+
+.about-text > h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 32px;
+    color: rgb(255, 234, 0);
+}
+
+.about-text > p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+.about-text > p:hover {
+    color: white;
+}
+
+.text-info {
+    position: relative;
+    height: max-content;
+    background: conic-gradient(rgb(255, 161, 161), rgb(255, 255, 154), rgb(129, 255, 129), rgb(127, 127, 255), rgb(134, 134, 134));;
+}
+
+@media screen and (min-width: 1080px) {
+    .text-info {
+        left: 60vw;
+        top: 10vh;
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .aboutPage {
+        height: 160vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .aboutPage {
+        height: 120vh;
+    }
+
+    .about-title {
+        font-size: 20px;
+    }
+
+    .about-text > h2 {
+        font-size: 23px;
+    }
+
+    .about-text > p {
+        font-size: 12px;
+    }
+
+    .text-info {
+        top: -5vh;
+        left: 8vw;
+        width: 86vw;
+    }
+}
